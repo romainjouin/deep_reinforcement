@@ -30,3 +30,4 @@ Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository
 
 
 ## Step 3: Have a look to the code :-s
+Activate the drlnd python environement **source activate drlnd** and fireup a jupyter notebook in this repo directory.
