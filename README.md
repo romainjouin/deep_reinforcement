@@ -1,5 +1,18 @@
 # deep_reinforcement
-This repo is my own implementtion of the 
+This repo is my own implementtion of the first exercice of udacity's deep-reinforcement-learning-nanodegree.
+
+For this project, we have to train an agent to navigate (and collect bananas!) in a large, square world.
+
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+
+0 - move forward.
+1 - move backward.
+2 - turn left.
+3 - turn right.
+
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 ## Step 1: Clone the DRLND Repository
 If you haven't already, please follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment. 
 These instructions can be found in README.md at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
